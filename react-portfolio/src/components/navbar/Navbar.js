@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Navbar, Container } from "react-bootstrap";
-// import logo from
+import logo from '../../assets/img/linkedIn.svg'
 
 export default function Navbar() {
     const [activeLink, setActiveLink] = useState('home')
@@ -26,7 +26,7 @@ export default function Navbar() {
         <Navbar bg="light" expand="lg" className={scrolled ? 'scrolled' : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={''} alt="logo" />
+                    <img src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -37,9 +37,9 @@ export default function Navbar() {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='#'><img src={''} alt="" /> </a>
-                            <a href='#'><img src={''} alt="" /> </a>
-                            <a href='#'><img src={''} alt="" /> </a>
+                            <a href='#'><img src={logo} alt="" /> </a>
+                            <a href='#'><img src={logo} alt="" /> </a>
+                            <a href='#'><img src={logo} alt="" /> </a>
                         </div>
                         <button className='' onClick={() => console.log('Contact us form')}><span>Let's Connect</span></button>
                     </span>
