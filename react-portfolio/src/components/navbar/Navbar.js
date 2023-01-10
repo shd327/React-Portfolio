@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Navbar, Container } from "react-bootstrap";
 import logo from '../../assets/img/linkedIn.svg'
 
-export default function Navbar() {
+export default function NavBar() {
     const [activeLink, setActiveLink] = useState('home')
     const [scolled, setScrolled] = useState(false)
     useEffect(() => {
