@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Navbar, Container } from "react-bootstrap";
+// import logo from
 
 export default function Navbar() {
     const [activeLink, setActiveLink] = useState('home')
@@ -17,6 +18,10 @@ export default function Navbar() {
             return () => window.removeEventListener('scroll', onScroll)
         }
     }, [])
+
+    const updateActiveLink = (value) => {
+        setActiveLink(value)
+    }
     return (
         <Navbar bg="light" expand="lg" className={scrolled ? 'scrolled' : ""}>
             <Container>
@@ -26,9 +31,9 @@ export default function Navbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={active === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
-                        <Nav.Link href="#Skills">Skills</Nav.Link>
-                        <Nav.Link href="#Projects">Projects</Nav.Link>
+                        <Nav.Link href="#home" className={active === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')}>Home</Nav.Link>
+                        <Nav.Link href="#skills" className={active === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href="#projects" className={active === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link>
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
