@@ -25,10 +25,10 @@ html {
   scroll-padding-top: 75px;
 }
 body {
-  font-weight: 400;
+  /* font-weight: 400; */
   overflow-x: hidden;
-  position: relative;
-  background-color: #121212 !important;
+  /* position: relative; */
+  background-color: lightblue !important;
   color: white !important;
   font-family: "Centra", sans-serif !important;
 }

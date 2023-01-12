@@ -4,7 +4,7 @@ import Home from '../Home/Home';
 import Skills from '../../components/Skills/Skills';
 import Footer from '../Footer/Footer'
 import Projects from '../Projects/Projects'
-// import Contact from '../../components/Contact';
+import Contact from '../Contact/Contact';
 // import AboutMe from '../../components/AboutMe/AboutMe';
 // import Home from '../../components/Home/Home';
 
@@ -26,10 +26,10 @@ export default function PortfolioContainer() {
         // if (currentPage === 'Contact') {
         //     return <Contact />;
         // }
-        // if (currentPage === 'Contact') {
+        if (currentPage === 'Contact') {
 
-        //     return <Contact />;
-        // }
+            return <Contact />;
+        }
         if (currentPage === 'Projects') {
             return <Projects />;
         }

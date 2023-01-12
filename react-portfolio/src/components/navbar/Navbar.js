@@ -2,6 +2,22 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../../assets/img/linkedIn.svg'
+// import {
+//     BrowserRouter as
+//         Router, Route,
+//     Link, Switch
+// } from 'react-router-dom';
+{/* <Navbar bg="light" variant="light">
+    <Container>
+        <Navbar.Brand href="#Home">Navbar</Navbar.Brand>
+        <Nav className="me-auto">
+            <Nav.Link href="#Home">Home</Nav.Link>
+            <Nav.Link href="#Skills">Skills</Nav.Link>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+        </Nav>
+    </Container>
+</Navbar> */}
+
 
 export default function NavBar({ currentPage, handlePageChange }) {
 
