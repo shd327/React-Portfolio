@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from '../Card/Card'
-import Render from '../Card/Render'
+import React from "react";
+import Card from "../Card/Card";
+import Render from "../Card/Render";
 // import tt from "../../assets/img/work_scheduler.gif"
 // import work_scheduler from "../img/work_scheduler.gif"
 // import team_profile_generator from "../img/team_profile_generator.PNG"
@@ -16,7 +16,7 @@ import Render from '../Card/Render'
 // import readme from "../img/readme.PNG"
 // import weather from "../img/weather.gif"
 // import holiday from "../img/holiday.gif"
-import './Projects.css';
+import "./Projects.css";
 
 // const projects = [
 //     {
@@ -110,16 +110,16 @@ import './Projects.css';
 // add character/text limit ... and to expand the rest when click
 // reactbootstrap overflow
 export default function Projects() {
-    return (
-        <div>
-            <Render />
+  return (
+    <div id="projects">
+      <Render />
 
-            {/* {projects.map((project) => (
+      {/* {projects.map((project) => (
                 <Card className="list-group-item"
                     name={project.name} description={project.description} githubLink={project.githubLink} img={project.img}>
 
                 </Card>
             ))} */}
-        </div>
-    )
+    </div>
+  );
 }
