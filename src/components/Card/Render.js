@@ -7,7 +7,7 @@ import social_media_api from "../img/social_media_api.gif";
 import quiz from "../img/quiz.gif";
 import password from "../img/password.gif";
 import jate from "../img/jate.gif";
-import horizon from "../img/horizon.png";
+// import horizon from "../img/horizon.png";
 import gamerQ from "../img/gamerQ.png";
 import employee_tracker from "../img/employee_tracker.PNG";
 import ecommerce from "../img/ecommerce.gif";
@@ -17,7 +17,7 @@ import weather from "../img/weather.gif";
 import holiday from "../img/holiday.gif";
 // import './Projects.css';
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 const projects = [
   {

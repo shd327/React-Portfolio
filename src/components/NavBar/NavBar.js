@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../../assets/img/linkedIn.svg";
-import { Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
+// import { useState } from "react";
+import { Nav } from "react-bootstrap";
+// import logo from "../../assets/img/linkedIn.svg";
+// import { Link } from "react-router-dom";
+// import { LinkContainer } from "react-router-bootstrap";
 {
   /* <Navbar bg="light" variant="light">
     <Container>
@@ -17,7 +17,7 @@ import { LinkContainer } from "react-router-bootstrap";
 </Navbar> */
 }
 
-export default function NavBar({ currentPage, handlePageChange }) {
+export default function NavBar() {
   // return (
   //     import React from 'react';
 
