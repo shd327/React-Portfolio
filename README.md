@@ -31,11 +31,8 @@ Cell: 908-883-0191
 
 ## Credits
 
-* https://cssgradient.io/gradient-backgrounds/
-* https://fonts.google.com/specimen/Spirax#standard-styles
-* https://www.brainyquote.com/quotes/andre_gide_120088
-* https://www.w3schools.com/jsref/jsref_touppercase.asp
-* https://www.youtube.com/watch?v=Nloq6uzF8RQ&ab_channel=KevinPowell
+* https://www.npmjs.com/package/react
+
 --- 
 
 ## License
