@@ -14,10 +14,10 @@ I am in the field of information technology and seeking to become a full-stack d
 ## Webpage
 
 
-![](/img/1.PNG)
-![](/img/2.PNG)
-![](/img/3.PNG)
-![](/img/4.PNG)
+![](/public/1.PNG)
+![](/public/2.PNG)
+![](/public/3.PNG)
+![](./public/4.PNG)
 
 
 
