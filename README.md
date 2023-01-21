@@ -17,7 +17,7 @@ I am in the field of information technology and seeking to become a full-stack d
 ![](/public/1.PNG)
 ![](/public/2.PNG)
 ![](/public/3.PNG)
-![](./public/4.PNG)
+![](/public/4.PNG)
 
 
 
