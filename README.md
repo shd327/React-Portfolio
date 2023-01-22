@@ -41,6 +41,7 @@ This project is free use
 
 ## Links
 
-[Heroku Link](https://still-woodland-32681.herokuapp.com/)
+* [Heroku Link](https://still-woodland-32681.herokuapp.com/)
 
-[Github Link](https://github.com/shd327/React-Portfolio)
+* [Github Link](https://github.com/shd327/React-Portfolio)
+* [Github deplopy](https://github.com/shd327/React-Portfolio/settings/pages)
